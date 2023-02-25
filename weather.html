@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- linking here css file and javascript file -->
+  <link rel="stylesheet" href="weather.css">
+
+  <title>Weather app</title>
+</head>
+<body>
+  <div class="whole">    <!-- class whole contains all of the contents -->
+    <div class="info">   <!-- class info contains all the informations -->
+      <div class="dateandtime">    <!-- class dateand time contains date, time and  ampm -->
+        <div class="time" id="time">     <!-- class and id called time that will display time -->
+           <span id="ampm"></span>    
+        </div>
+        <div class="date" id="date">    <!-- class and id called date that will display the date -->
+        </div>
+        <div class="icon" id="icon">     <!-- class and id called icon that will display weather -->
+          <img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="icon" class="icon">
+      </div>
+        <div class ="forecast" id="forecast"></div>     <!-- class and id called forecast that will display temperature and description -->
+        <div class="weather" id="weather">
+        
+        </div>      <!-- class and id called weather that will display other weather information -->
+      </div>
+      <div class="place">
+        <p><h1>Coventry </h1></p>
+        <p>United Kingdom</p>
+          </div>
+      </div>
+     
+    </div>
+  </div>
+
+  <script src="weather.js"> </script>
+</body>
+</html>

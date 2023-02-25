@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    
+  }
+  body{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/4/40/Coventry_City_Centre_from_One_Friargate.jpg");
+    background-size: cover; 
+    background-repeat: no repeat;
+    overflow:hidden;
+  }
+  .whole{
+    padding: 20px 70px;
+    color:white;
+  }
+  .info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+  }
+  .dateandtime{
+    font-weight: 100;
+    padding: 10px 30px 10px;
+    border: 5px solid white;
+    background-color:#3b7edda0;
+    border-radius: 10px;
+  }
+  .dateandtime .time{
+    font-size: 50px;
+    
+  }
+  .dateandtime #ampm{
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .dateandtime .date{
+    font-size: 20px;
+    padding: 0px 20px 20px 20px;
+  }
+  .place{
+    text-align: end;
+    font-style: italic;
+    font-size: 30px
+  }
+  
+  .info .weather{
+    display: flex;
+    flex-direction: column;
+    background:rgba(24,24,27,0.6 ) ;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid white;
+  }
+  .info .weather .humidity{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info .weather .pressure{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info .weather .windspeed{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info .weather .direction{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info .weather .temp{
+    display: flex;
+    justify-content: space-between;
+  }
+  .info .forecast{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 0px 20px 20px;
+  
+  
+  }
+  .info .forecast .temperature{
+    display: flex;
+    justify-content: space-between;
+  }
+  
